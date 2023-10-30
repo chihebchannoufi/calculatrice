@@ -1,0 +1,42 @@
+input[type=button] {
+
+    background-color: #dadcee;
+
+    border: 1px solid #dadcee;
+
+    width: 80px;
+
+    height: 80px;
+
+    border-radius: 8px;
+}
+
+#x {
+
+    width: 165px;
+}
+
+#textview {
+
+    width: 335px;
+
+    height: 60px;
+
+    border-radius: 1px;
+
+    border: 1px solid #e4e4e4;
+}
+
+fieldset {
+
+    width: 345px;
+    margin: auto;
+
+}
+legend{
+    text-align: center;
+    font-size: 35px;
+}
+body{
+    background: linear-gradient(to right, #8B575C, #F4F4F4);
+}
