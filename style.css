@@ -40,8 +40,9 @@ legend{
 body{
     background: linear-gradient(to right, #8099E9, #E99DCB );
 }
-@media (max-width: 480px){
-    body{
-    width:min(100%,950px);
-}
+@media (max-width: 480px) {
+    fieldset {
+        width: 100%;
+        margin: 0;   
+    }
 }
