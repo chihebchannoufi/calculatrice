@@ -29,7 +29,7 @@ input[type=button] {
 
 fieldset {
 
-    width: 335px;
+    width: 345px;
     margin: auto;
 
 }
@@ -39,4 +39,9 @@ legend{
 }
 body{
     background: linear-gradient(to right, #8099E9, #E99DCB );
+}
+@media (max-width: 480px){
+    body{
+    width:min(100%,950px);
+}
 }
