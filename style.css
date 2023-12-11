@@ -31,6 +31,7 @@ fieldset {
 
     width: 345px;
     margin: auto;
+    width: min(100%,950px);
 
 }
 legend{
@@ -39,5 +40,4 @@ legend{
 }
 body{
     background: linear-gradient(to right, #8099E9, #E99DCB );
-    width: min(100%,480px);
 }
