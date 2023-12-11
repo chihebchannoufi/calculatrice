@@ -40,21 +40,3 @@ legend{
 body{
     background: linear-gradient(to right, #8099E9, #E99DCB );
 }
-@media (max-width: 480px) {
-    input[type=button] {
-        width: 60px;
-        height: 60px;
-    }
-
-    #x {
-        width: 100%;
-    }
-
-    #textview {
-        width: 100%;
-    }
-
-    fieldset {
-        width: 100%;
-    }
-}
