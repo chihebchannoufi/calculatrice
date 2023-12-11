@@ -29,9 +29,8 @@ input[type=button] {
 
 fieldset {
 
-    width: 345px;
+    width: 335px;
     margin: auto;
-    width: min(100%,480px);
 
 }
 legend{
