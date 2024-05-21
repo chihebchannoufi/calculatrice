@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="operation.js"></script>
+    <style>
+        @media(prefers-color-scheme:light){
+            body{
+                background: linear-gradient(to right, #8099E9, #E99DCB );
+                color: black;
+            }
+        }
+        @media(prefers-color-scheme:dark){
+            body{
+                background-color: black;
+                color: white;
+            }
+            legend{
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset style="color: black;">
+        <legend>Calculatrice</legend>
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" id="textview" disabled="disabled" style="color: black;" /></td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="9" onclick="operation ('9')" /> </td>
+                <td> <input type="button" value="8" onclick="operation ('8')" /> </td>
+                <td> <input type="button" value="7" onclick="operation ('7')" /> </td>
+                <td> <input type="button" value="/" onclick="operation('/')" /> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="6" onclick="operation ('6')" /> </td>
+                <td> <input type="button" value="5" onclick="operation ('5')" /> </td>
+                <td> <input type="button" value="4" onclick="operation ('4')" /> </td>
+                <td> <input type="button" value="*" onclick="operation ('*')" /> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="3" onclick="operation ('3')" /> </td>
+                <td> <input type="button" value="2" onclick="operation ('2')" /> </td>
+                <td> <input type="button" value="1" onclick="operation ('1')" /> </td>
+                <td> <input type="button" value="-" onclick="operation('-')" /> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="C" onclick="efface()" /> </td>
+                <td> <input type="button" value="." onclick="operation('.')" /> </td>
+                <td> <input type="button" value="0" onclick="operation('0')" /> </td>
+                <td> <input type="button" value="+" onclick="operation('+')" /> </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <input type="button" value="=" onclick="calcul()" id="x" /></td>
+                <td colspan="2"><input type="button" value="CE" onclick="supp()" id="x" /></td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+
+</html>
